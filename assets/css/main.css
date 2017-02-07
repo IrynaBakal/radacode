@@ -45,7 +45,8 @@ table {
 /*styles*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #000; }
+  color: #000;
+  font-weight: 300; }
 
 a {
   color: inherit;
@@ -64,8 +65,29 @@ a {
 header {
   padding: 28px 0; }
 
-section {
-  background: linear-gradient(to right, #287545, #98C368, #00462F); }
+body section:first-child {
+  background: linear-gradient(to right, #287545, #98C368, #00462F);
+  padding-bottom: 66px; }
+  body section:first-child:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 65px solid white;
+    border-right: 50vw solid transparent;
+    position: absolute;
+    top: calc(100% - 90px);
+    left: 0; }
+  body section:first-child:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    border-bottom: 65px solid white;
+    border-left: 50vw solid transparent;
+    position: absolute;
+    top: calc(100% - 90px);
+    right: 0; }
 
 .logo {
   float: left; }
@@ -73,6 +95,8 @@ section {
     float: left; }
   .logo .img_part {
     margin: 0 10px 0 20px; }
+  .logo .txt_part {
+    font-weight: 400; }
   .logo img {
     display: block;
     width: 100%; }
@@ -93,4 +117,22 @@ section {
     border: 2px solid;
     padding: 10px 30px; }
 
-/*# sourceMappingURL=main.css.map */
+.big_logo {
+  padding-left: 60px; }
+  .big_logo div {
+    display: inline-block; }
+  .big_logo img {
+    display: block;
+    margin-right: 15px; }
+  .big_logo .sign {
+    text-align: right;
+    padding-bottom: 15px; }
+
+.slogan {
+  font-size: 36px;
+  padding: 0 0 15px 170px; }
+  .slogan + p {
+    padding: 30px 0;
+    font-size: 22px;
+    text-align: center;
+    line-height: 25px; }
