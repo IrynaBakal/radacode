@@ -1,0 +1,287 @@
+$basicSize: 20px;
+
+@media screen and (max-width: 1100px) {
+	body section:nth-child(3) .content, header .content{
+		>div{
+			padding: 0 30px;
+		}
+	}
+}
+
+@media screen and (max-width: 1000px) {
+	.content{
+		width: 100%;
+		padding: 0 15px;
+	}
+	.big_logo img{
+		max-width: 400px;
+	}
+	.slogan{
+		font-size: 32px;
+		&+p{
+			font-size: $basicSize;
+			padding-right:90px;
+		}
+	}
+	.ttl {
+	    font-size: 32px;
+	    &+p{
+	    	font-size: $basicSize;
+	    	line-height: $basicSize + 2px;
+	    }
+	}
+	.logo.md .title {
+	    font-size: 55px;
+	}
+	body section:nth-child(3) .content{
+		>div{
+			padding: 0 40px;
+		}
+	}
+	footer .btm_footer{
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.right_head{
+		font-size: $basicSize - 4px;
+	}
+	.ttl + p{
+		font-size: $basicSize - 3px;
+	}
+	.slogan + p{
+		font-size: $basicSize - 2px;
+	}
+	.logo.md .title{
+		font-size: 52px;
+    	padding-left: 10px;
+	}
+	.btn_buy.filled{
+		font-size: 28px;
+	}
+	.big_logo {
+	    padding-left: 40px;
+	}
+}
+
+@media screen and (max-width: 870px) {
+	.big_logo{
+		padding-bottom:20px;
+	 	img {
+		    max-width: 370px;
+		}
+	}
+}
+
+@media screen and (max-width: 850px) {
+	body section:nth-child(2) .content{
+		background: url(../images/mac.png) 95% center no-repeat;
+    	background-size: 45% 65%;
+	}
+	header .content > div{
+		padding-left:0;
+	}
+	.big_logo{
+		padding-left: 20px;
+	}
+}
+
+@media screen and (max-width: 825px) {
+	.cont_paws img{
+		max-width: 45px;
+	}
+	.slogan + p{
+		padding-right: 70px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.slogan{
+		padding-left:100px;
+	}
+	.big_logo .sign{
+		padding-right: 25px;
+	}
+}
+
+@media screen and (max-width: 775px) {
+	.big_logo .sign{
+		padding-right: 50px;
+	}
+	.cont_paws img{
+		&:first-child{
+			right:280px; 
+		}
+		&:nth-child(2){
+			right:210px; 
+		}
+		&:nth-child(3){
+			right:110px;
+		}
+		&:nth-child(4){
+			right:15px;
+		}
+		&:nth-child(5){
+			right:8px;
+		}
+		&:nth-child(6){
+			right:10px;
+		}
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.cont_paws img{
+		max-width: 40px;
+	}
+	.logo.md img{
+		max-width: 70px;
+	}
+	.right_head > a:first-child {
+	    margin-right: 60px;
+	}
+}
+
+@media screen and (max-width: 730px) {
+	.cont_paws img{
+		&:first-child{
+			right:240px; 
+		}
+		&:nth-child(2){
+			top:58px;
+			right:180px; 
+		}
+		&:nth-child(3){
+			right:90px;
+		}
+	}
+	body section:nth-child(2) .content{
+		background-size: 40% 55%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.cont_paws img {
+	    max-width: 35px;
+	}
+	.slogan {
+	    padding-left: 50px;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.slogan{
+		font-size: 30px;
+		&+ p{
+			font-size: $basicSize - 4px;
+			line-height: $basicSize + 1px;
+		}
+	}
+	header .content > div{
+		padding-right: 15px;
+	}
+	.big_logo img {
+	    max-width: 345px;
+	}
+	.ttl{
+		padding:35px 0;
+		&+ p{
+			font-size: $basicSize - 4px;
+		}
+	}
+	.btn_buy.filled {
+	    font-size: 26px;
+	}
+	.logo.md {
+		img{
+			max-width: 60px;
+		}
+		.title {
+		    font-size: 48px;
+		}
+	}
+	.right_head > a:first-child {
+	    margin-right: 40px;
+	}
+}
+
+@media screen and (max-width: 630px) {
+	.cont_paws img{
+		&:first-child{
+			right:200px; 
+		}
+		&:nth-child(2){
+			top:58px;
+			right:140px; 
+		}
+		&:nth-child(3){
+			right:60px;
+		}
+	}
+	body section:nth-child(3) .content > div {
+	    padding: 0 30px;
+	}
+	.right_head > a{
+		&:first-child {
+	    	margin-right: 25px;
+		}
+		&+ a {
+		    margin-right: 20px;
+		}
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.ttl{
+		&+ p{
+			font-size: $basicSize - 6px;
+		}
+	}
+	body section:nth-child(2) .content {
+	    background-size: 35% 40%;
+	}
+	.slogan{
+		font-size: 27px;
+	}
+	.cont_paws img{
+		&:first-child{
+			right:175px; 
+		}
+		&:nth-child(2){
+			top:58px;
+			right:120px; 
+		}
+		&:nth-child(3){
+			right:55px;
+		}
+	}
+	footer .top_footer{
+		img{
+			max-width: 40px;
+		}
+	}
+}
+
+@media screen and (max-width: 580px){
+	.logo.md {
+		.title{
+			font-size: 45px;
+		}
+		.img_part{
+			margin-left: 0;
+		}
+	}
+	.cont_paws img{
+		&:first-child{
+			right:150px; 
+		}
+		&:nth-child(2){
+			top:58px;
+			right:105px; 
+		}
+		&:nth-child(3){
+			right:45px;
+		}
+	}
+}

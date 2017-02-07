@@ -41,14 +41,14 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-/*variables*/
 /*styles*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #000;
-  font-weight: 300; }
+  font-weight: 300;
+  min-width: 320px; }
 
-body* {
+body * {
   box-sizing: border-box; }
 
 a {

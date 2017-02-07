@@ -42,7 +42,6 @@ table {
 	border-spacing: 0;
 }
 
-/*variables*/
 $fontSize:12px;
 $fontStack:'Open Sans', sans-serif;
 $colorFont: #000;
@@ -53,8 +52,9 @@ body{
 	font-family:$fontStack;
 	color:$colorFont;
 	font-weight: 300;
+	min-width:320px;
 }
-body* {
+body * {
 	box-sizing:border-box;
 }
 a{
