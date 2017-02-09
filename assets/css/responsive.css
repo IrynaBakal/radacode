@@ -193,6 +193,175 @@
     top: 58px;
     right: 105px; }
   .cont_paws img:nth-child(3) {
-    right: 45px; } }
+    right: 45px; }
+  .cont_paws img:nth-child(6) {
+    right: 20px; } }
+@media screen and (max-width: 550px) {
+  .slogan {
+    padding-left: 20px;
+    font-size: 25px; }
+    .slogan + p {
+      padding-left: 0; }
 
-/*# sourceMappingURL=responsive.css.map */
+  .btn_buy.filled {
+    padding: 14px 20px; }
+
+  body section:nth-child(3) .content > div {
+    padding: 0 15px; }
+
+  header .logo .txt_part {
+    display: none; } }
+@media screen and (max-width: 540px) {
+  body section:nth-child(2) .content {
+    background: none; }
+    body section:nth-child(2) .content div {
+      display: block; }
+
+  .cont_paws img:first-child {
+    right: 120px; }
+  .cont_paws img:nth-child(2) {
+    right: 75px; }
+  .cont_paws img:nth-child(3) {
+    right: 37px;
+    top: 100px; }
+  .cont_paws img:nth-child(4) {
+    right: 12px;
+    top: 150px; }
+  .cont_paws img:nth-child(5) {
+    right: 8px; }
+  .cont_paws img:nth-child(6) {
+    right: 25px; } }
+@media screen and (max-width: 515px) {
+  .cont_paws img:first-child {
+    display: none; }
+  .cont_paws img:nth-child(2) {
+    top: 65px;
+    right: 80px; } }
+@media screen and (max-width: 500px) {
+  .slogan {
+    padding-left: 5px; }
+
+  footer .top_footer {
+    display: block; }
+    footer .top_footer > div {
+      width: 100%; }
+      footer .top_footer > div:first-child {
+        margin-bottom: 30px; }
+      footer .top_footer > div:last-child {
+        padding: 0 10%; } }
+@media screen and (max-width: 485px) {
+  .cont_paws img {
+    display: none; }
+
+  .slogan + p {
+    padding-right: 0; }
+
+  .right_head .btn_buy {
+    padding: 10px 20px; }
+
+  .logo.md .title {
+    font-size: 40px;
+    padding-left: 5px; } }
+@media screen and (max-width: 450px) {
+  .right_head > a:first-child {
+    margin-right: 15px; }
+  .right_head > a + a {
+    margin-right: 12px; }
+
+  .slogan {
+    font-size: 23px;
+    text-align: center; }
+
+  .btn_buy.filled {
+    font-size: 23px;
+    padding: 14px 15px; }
+
+  .logo.md .title {
+    font-size: 36px; }
+  .logo.md img {
+    max-width: 50px; }
+
+  footer .btm_footer {
+    font-size: 14px; } }
+@media screen and (max-width: 420px) {
+  .right_head {
+    font-size: 15px; }
+
+  header .content > div {
+    padding-right: 0; }
+
+  .slogan {
+    line-height: 28px; }
+    .slogan + p {
+      font-size: 15px; } }
+@media screen and (max-width: 405px) {
+  body section:nth-child(3) .content > div {
+    padding: 0; }
+
+  header .logo .img_part {
+    margin: 0 10px; }
+
+  .big_logo img {
+    max-width: 100%; } }
+@media screen and (max-width: 380px) {
+  footer {
+    padding-top: 55px; }
+    footer:before {
+      border-top: 55px solid white;
+      top: -1px; }
+    footer:after {
+      border-top: 55px solid white;
+      top: -1px; }
+
+  body section:first-child {
+    padding-bottom: 55px; }
+    body section:first-child:before {
+      border-bottom: 55px solid white;
+      top: calc(100% - 55px); }
+    body section:first-child:after {
+      border-bottom: 55px solid white;
+      top: calc(100% - 55px); }
+
+  .right_head {
+    font-size: 14px; }
+
+  header .logo img {
+    width: 90%; } }
+@media screen and (max-width: 360px) {
+  .logo.md img {
+    max-width: 40px; }
+  .logo.md .title {
+    font-size: 34px;
+    padding-left: 0; }
+
+  .btn_buy.filled {
+    padding: 12px 15px; }
+
+  .right_head .btn_buy {
+    padding: 8px 12px; } }
+@media screen and (max-width: 340px) {
+  body section:nth-child(3) .content {
+    display: block;
+    padding-bottom: 35px; }
+
+  .right_col {
+    text-align: center;
+    padding-bottom: 35px; }
+    .right_col .btn_buy.filled {
+      display: inline-block; }
+
+  .logo.md {
+    width: 100%;
+    justify-content: center;
+    padding: 35px 0; }
+
+  .right_head > a:first-child {
+    margin-right: 12px; }
+  .right_head > a + a {
+    margin-right: 8px; }
+
+  .ttl + p br {
+    display: none; } }
+@media screen and (max-width: 325px) {
+  .right_head .btn_buy {
+    padding: 8px 9px; } }

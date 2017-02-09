@@ -228,6 +228,11 @@ footer {
     align-items: center;
     font-size: 20px;
     padding: 35px 0 50px; }
+    footer .top_footer > div {
+      display: flex;
+      width: 50%;
+      justify-content: space-around;
+      padding: 0 3%; }
   footer .btm_footer {
     text-align: center;
     font-size: 18px;
@@ -252,5 +257,3 @@ footer {
     position: absolute;
     top: 0;
     right: 0; }
-
-/*# sourceMappingURL=main.css.map */
